@@ -51,7 +51,7 @@ class BookDetector:
         else:
             center_x = width // 2
             
-        # Draw the center line for visualization
+       # Draw the center line for visualization
         debug_frame = frame.copy()
         cv2.line(debug_frame, (center_x, 0), (center_x, height), (0, 0, 255), 2)
         
